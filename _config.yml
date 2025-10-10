@@ -1,6 +1,12 @@
 theme: jekyll-theme-hacker
 
+# Site settings
+title: Benjamin Kuter
+description: Welcome to My GitHub Page
 lang: en
-
 timezone: America/New_York
+
+# GitHub Pages settings
+github:
+  is_project_page: false
 
