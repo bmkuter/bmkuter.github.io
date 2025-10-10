@@ -59,10 +59,16 @@
   letter-spacing: 0.5px;
 }
 
-.project-status.active {
+.project-status.active-development {
   background: rgba(0, 255, 0, 0.2);
   color: #00ff00;
   border: 1px solid #00ff00;
+}
+
+.project-status.modeling {
+  background: rgba(255, 20, 147, 0.2);
+  color: #ff1493;
+  border: 1px solid #ff1493;
 }
 
 .project-status.prototype {
@@ -86,6 +92,25 @@
   color: #b5bd68;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.has-3d-models {
+  background: rgba(138, 43, 226, 0.2);
+  color: #8a2be2;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  border: 1px solid #8a2be2;
+}
+
+.wip-badge {
+  background: rgba(255, 69, 0, 0.2);
+  color: #ff4500;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  border: 1px solid #ff4500;
+  margin-left: 0.5rem;
 }
 
 .project-description {
@@ -138,6 +163,17 @@
   background: rgba(0, 255, 0, 0.2);
   box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
   transform: translateY(-1px);
+}
+
+.wip-link {
+  background: rgba(255, 69, 0, 0.1);
+  border-color: #ff4500;
+  color: #ff4500;
+}
+
+.wip-link:hover {
+  background: rgba(255, 69, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
 }
 
 .github-link .icon::before {

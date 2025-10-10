@@ -2,14 +2,21 @@
 <div class="project-card">
   <div class="project-header">
     <h3 class="project-title">
-      <a href="{{ project.github_url }}" target="_blank">{{ project.name }}</a>
+      {% if project.github_url == "/wip" %}
+        {{ project.name }} <span class="wip-badge">WIP</span>
+      {% else %}
+        <a href="{{ project.github_url }}" target="_blank">{{ project.name }}</a>
+      {% endif %}
     </h3>
-    <span class="project-status {{ project.status | downcase }}">{{ project.status }}</span>
+    <span class="project-status {{ project.status | downcase | replace: ' ', '-' }}">{{ project.status }}</span>
   </div>
   
   <div class="project-meta">
     <span class="last-updated">Last updated: {{ project.last_updated }}</span>
     <span class="project-language">{{ project.language }}</span>
+    {% if project.has_3d_models %}
+      <span class="has-3d-models">📐 3D Models</span>
+    {% endif %}
   </div>
   
   <div class="project-description">
@@ -22,10 +29,21 @@
   </div>
   
   <div class="project-links">
-    <a href="{{ project.github_url }}" class="project-link github-link" target="_blank">
-      <span class="icon"></span>View on GitHub
-    </a>
-    {% if project.demo_url %}
+    {% if project.github_url == "/wip" %}
+      <a href="{{ project.github_url }}" class="project-link wip-link">
+        <span class="icon"></span>GitHub Coming Soon
+      </a>
+    {% else %}
+      <a href="{{ project.github_url }}" class="project-link github-link" target="_blank">
+        <span class="icon"></span>View on GitHub
+      </a>
+    {% endif %}
+    
+    {% if project.demo_url == "/wip" %}
+      <a href="{{ project.demo_url }}" class="project-link demo-link">
+        🚧 Demo Coming Soon
+      </a>
+    {% elsif project.demo_url and project.demo_url != "" %}
       <a href="{{ project.demo_url }}" class="project-link demo-link" target="_blank">
         Live Demo
       </a>
