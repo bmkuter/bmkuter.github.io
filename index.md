@@ -7,13 +7,19 @@ title: Welcome to My GitHub Page
 
 ## About Me
 
-This is where you can write a brief introduction about yourself.
+This is where you can write a brief introduction about yourself. I'm a maker and developer passionate about IoT, automation, and creating solutions that bridge the physical and digital worlds.
 
-## Projects
+## Latest Project Updates
 
-Showcase your projects here.
+Here are my current projects - each one is an ongoing story of innovation and learning:
 
-Test123
+{% assign sorted_projects = site.data.projects | sort: 'last_updated' | reverse %}
+
+<div class="projects-container">
+{% for project in sorted_projects %}
+  {% include project-card.html project=project %}
+{% endfor %}
+</div>
 
 ## Contact
 
