@@ -21,7 +21,7 @@
 - name: "Coffee Bean Smart Doser"
   description: "An intelligent coffee bean dosing system that precisely measures and dispenses coffee beans based on brewing method, bean density, and desired strength. Currently in 3D modeling phase."
   github_url: "/ongoing"
-  status: "Modeling"
+  status: "Ongoing"
   language: "C/ESP-IDF"
   last_updated: "2025-10-11"
   latest_update: "Currently designing the mechanical components and 3D models for the dispensing mechanism. Planning to use load cells for precise weight measurement and stepper motors for controlled dispensing."
