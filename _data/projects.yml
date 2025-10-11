@@ -13,7 +13,7 @@
   github_url: "https://github.com/bmkuter/Weather_Mesh_Lite"
   status: "Active Development"
   language: "C/ESP-IDF"
-  last_updated: "2025-10-08"
+  last_updated: "2025-04-07"
   latest_update: "Working on implementing the mesh network protocol using ESP32 devices. Successfully tested basic sensor readings and wireless communication between two nodes."
   demo_url: "/wip"
   has_3d_models: true
@@ -23,7 +23,7 @@
   github_url: "/wip"
   status: "Modeling"
   language: "C/ESP-IDF"
-  last_updated: "2025-10-05"
+  last_updated: "2025-10-11"
   latest_update: "Currently designing the mechanical components and 3D models for the dispensing mechanism. Planning to use load cells for precise weight measurement and stepper motors for controlled dispensing."
   demo_url: "/wip"
   has_3d_models: true
@@ -33,7 +33,7 @@
   github_url: "https://github.com/bmkuter/GrowPod"
   status: "Active Development"
   language: "C/ESP-IDF"
-  last_updated: "2025-09-28"
+  last_updated: "2025-10-11"
   latest_update: "Researching sensor requirements and designing the system architecture. Planning to integrate pH sensors, nutrient pumps, and automated lighting control with ESP32 and NXP RT1062 processors."
   demo_url: "/wip"
   has_3d_models: true
