@@ -21,10 +21,6 @@ Here are my current projects - each one is an ongoing story of innovation and le
 {% endfor %}
 </div>
 
-## Contact
-
-Provide your contact information here.
-
 ---
 
 © 2025 Benjamin Kuter. All rights reserved.
