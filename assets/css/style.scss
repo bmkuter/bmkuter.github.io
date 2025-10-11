@@ -83,6 +83,12 @@
   border: 1px solid #00bfff;
 }
 
+.project-status.complete {
+  background: rgba(34, 139, 34, 0.2);
+  color: #228b22;
+  border: 1px solid #228b22;
+}
+
 .project-meta {
   display: flex;
   justify-content: space-between;

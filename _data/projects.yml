@@ -1,3 +1,13 @@
+- name: "MIDI Box"
+  description: "A digital signal processing device built on Teensy 4.1 (NXP RT1062) that takes MIDI input from keyboards and converts notes to user-selectable scales in real-time. Features an OLED display and rotary encoder for scale selection."
+  github_url: "https://github.com/bmkuter/Midi_Box"
+  status: "Complete"
+  language: "C++/Arduino"
+  last_updated: "2023-11-14"
+  latest_update: "Project completed with full functionality. Users can select from various scales (major, minor, pentatonic, etc.) and root notes using the rotary encoder interface. All MIDI input is processed and converted in real-time."
+  demo_url: "/wip"
+  has_3d_models: false
+
 - name: "Weather Mesh Lite"
   description: "A network of interconnected weather monitoring devices creating a mesh network for hyperlocal weather data collection and prediction using ESP32 microcontrollers."
   github_url: "https://github.com/bmkuter/Weather_Mesh_Lite"
