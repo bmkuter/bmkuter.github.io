@@ -7,7 +7,7 @@ title: Welcome to My GitHub Page
 
 ## About Me
 
-This is where you can write a brief introduction about yourself. I'm a maker and developer passionate about IoT, automation, and creating solutions that bridge the physical and digital worlds.
+I'm a maker and developer passionate about IoT, automation, and creating solutions that bridge the physical and digital worlds.
 
 ## Latest Project Updates
 
