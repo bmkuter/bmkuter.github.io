@@ -5,7 +5,7 @@
   language: "C++/Arduino"
   last_updated: "2023-11-14"
   latest_update: "Project completed with full functionality. Users can select from various scales (major, minor, pentatonic, etc.) and root notes using the rotary encoder interface. All MIDI input is processed and converted in real-time."
-  demo_url: "/wip"
+  demo_url: "/ongoing"
   has_3d_models: false
 
 - name: "Weather Mesh Lite"
@@ -15,25 +15,25 @@
   language: "C/ESP-IDF"
   last_updated: "2025-04-07"
   latest_update: "Working on implementing the mesh network protocol using ESP32 devices. Successfully tested basic sensor readings and wireless communication between two nodes."
-  demo_url: "/wip"
+  demo_url: "/ongoing"
   has_3d_models: true
 
 - name: "Coffee Bean Smart Doser"
   description: "An intelligent coffee bean dosing system that precisely measures and dispenses coffee beans based on brewing method, bean density, and desired strength. Currently in 3D modeling phase."
-  github_url: "/wip"
+  github_url: "/ongoing"
   status: "Modeling"
   language: "C/ESP-IDF"
   last_updated: "2025-10-11"
   latest_update: "Currently designing the mechanical components and 3D models for the dispensing mechanism. Planning to use load cells for precise weight measurement and stepper motors for controlled dispensing."
-  demo_url: "/wip"
+  demo_url: "/ongoing"
   has_3d_models: true
 
 - name: "GrowPod"
   description: "An automated hydroponic growing system with IoT monitoring, pH control, nutrient management, and growth tracking capabilities using embedded microcontrollers."
   github_url: "https://github.com/bmkuter/GrowPod"
-  status: "Active Development"
+  status: "Ongoing"
   language: "C/ESP-IDF"
   last_updated: "2025-10-11"
   latest_update: "Researching sensor requirements and designing the system architecture. Planning to integrate pH sensors, nutrient pumps, and automated lighting control with ESP32 and NXP RT1062 processors."
-  demo_url: "/wip"
+  demo_url: "/ongoing"
   has_3d_models: true

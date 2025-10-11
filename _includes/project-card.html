@@ -2,8 +2,8 @@
 <div class="project-card">
   <div class="project-header">
     <h3 class="project-title">
-      {% if project.github_url == "/wip" %}
-        {{ project.name }} <span class="wip-badge">WIP</span>
+      {% if project.github_url == "/wip" or project.github_url == "/ongoing" %}
+        {{ project.name }} <span class="ongoing-badge">ONGOING</span>
       {% else %}
         <a href="{{ project.github_url }}" target="_blank">{{ project.name }}</a>
       {% endif %}
@@ -29,8 +29,8 @@
   </div>
   
   <div class="project-links">
-    {% if project.github_url == "/wip" %}
-      <a href="{{ project.github_url }}" class="project-link wip-link">
+    {% if project.github_url == "/wip" or project.github_url == "/ongoing" %}
+      <a href="{{ project.github_url }}" class="project-link ongoing-link">
         <span class="icon"></span>GitHub Coming Soon
       </a>
     {% else %}
@@ -39,9 +39,9 @@
       </a>
     {% endif %}
     
-    {% if project.demo_url == "/wip" %}
+    {% if project.demo_url == "/wip" or project.demo_url == "/ongoing" %}
       <a href="{{ project.demo_url }}" class="project-link demo-link">
-        🚧 Demo Coming Soon
+        � View Progress
       </a>
     {% elsif project.demo_url and project.demo_url != "" %}
       <a href="{{ project.demo_url }}" class="project-link demo-link" target="_blank">
