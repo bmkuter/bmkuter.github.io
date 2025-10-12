@@ -11,7 +11,7 @@
 - name: "Weather Mesh Lite"
   description: "A network of interconnected weather monitoring devices creating a mesh network for hyperlocal weather data collection and prediction using ESP32 microcontrollers. Features a custom blockchain implementation between nodes to mitigate bad actors injecting false data. Nodes participate in an election process to take turns calculating the next block, with validation performed by the rest of the network to ensure data integrity."
   github_url: "https://github.com/bmkuter/Weather_Mesh_Lite"
-  status: "Active Development"
+  status: "Complete"
   language: "C/ESP-IDF"
   last_updated: "2025-04-07"
   latest_update: "Working on implementing the mesh network protocol using ESP32 devices. Successfully tested basic sensor readings and wireless communication between two nodes."
