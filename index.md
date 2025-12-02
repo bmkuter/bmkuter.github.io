@@ -11,7 +11,7 @@ I'm a maker and developer passionate about IoT, automation, and creating solutio
 
 ## Latest Project Updates
 
-Here are my current projects - each one is an ongoing story of innovation and learning:
+Here are my current projects:
 
 {% assign sorted_projects = site.data.projects | sort: 'last_updated' | reverse %}
 
