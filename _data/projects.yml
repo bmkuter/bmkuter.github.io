@@ -33,7 +33,7 @@
   github_url: "https://github.com/bmkuter/GrowPod"
   status: "Ongoing"
   language: "C/ESP-IDF"
-  last_updated: "2025-10-11"
+  last_updated: "2026-1-6"
   latest_update: "Researching sensor requirements and designing the system architecture. Planning to integrate pH sensors, nutrient pumps, and automated lighting control with ESP32 and NXP RT1062 processors."
   demo_url: "/ongoing"
   has_3d_models: true
