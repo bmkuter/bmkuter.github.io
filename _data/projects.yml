@@ -1,3 +1,13 @@
+- name: "ESP-Camera"
+  description: "WiFi-enabled ESP32-S3 camera system for the GrowPod project. Features high-resolution QXGA (2048x1536) image capture, live MJPEG preview stream, web-based camera controls, and mDNS support. Built on Seeed Studio XIAO ESP32S3 Sense with OV3660 camera module and 8MB PSRAM for high-speed image buffering."
+  github_url: "https://github.com/bmkuter/ESP-Camera"
+  status: "Complete"
+  language: "C/ESP-IDF"
+  last_updated: "2026-01-11"
+  latest_update: "Completed WiFi camera system with web interface for remote plant monitoring. Achieves ~1.5 second capture-to-transfer time with optimized PSRAM configuration. Includes Python client for automated image capture and HTTP API for camera control."
+  demo_url: "/ongoing"
+  has_3d_models: false
+
 - name: "MIDI Box"
   description: "A digital signal processing device built on Teensy 4.1 (NXP RT1062) that takes MIDI input from keyboards and converts notes to user-selectable scales in real-time. Features an OLED display and rotary encoder for scale selection."
   github_url: "https://github.com/bmkuter/Midi_Box"
@@ -29,11 +39,11 @@
   has_3d_models: true
 
 - name: "GrowPod"
-  description: "An automated hydroponic growing system with IoT monitoring, pH control, nutrient management, and growth tracking capabilities using embedded microcontrollers."
+  description: "An intelligent, energy-efficient Deep Water Culture (DWC) hydroponic system designed for scalable at-home food production and scientific plant research. Features ESP32-S3 control, custom capacitive water level sensing (FDC1004), automated peristaltic pumps for water recycling, and a Python GUI console with real-time monitoring, historical data logging, and individual LED channel control."
   github_url: "https://github.com/bmkuter/GrowPod"
-  status: "Ongoing"
+  status: "Active Development"
   language: "C/ESP-IDF"
-  last_updated: "2026-1-6"
-  latest_update: "Researching sensor requirements and designing the system architecture. Planning to integrate pH sensors, nutrient pumps, and automated lighting control with ESP32 and NXP RT1062 processors."
+  last_updated: "2026-01-06"
+  latest_update: "Major updates in December 2024: Added Python GUI console with mDNS device discovery, 2-hour sensor data cache with SQLite storage, advanced 4-channel LED control with bidirectional sync, auto-refresh dashboard, and CSV export. Implemented non-contact capacitive water level sensing through FDC1004. System now features complete water cycle control with real-time power monitoring."
   demo_url: "/ongoing"
   has_3d_models: true
