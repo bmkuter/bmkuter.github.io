@@ -4,6 +4,8 @@
     <h3 class="project-title">
       {% if project.github_url == "/wip" or project.github_url == "/ongoing" %}
         {{ project.name }} <span class="ongoing-badge">ONGOING</span>
+      {% elsif project.is_private_repo %}
+        {{ project.name }} <span class="private-badge">PRIVATE REPO</span>
       {% else %}
         <a href="{{ project.github_url }}" target="_blank">{{ project.name }}</a>
       {% endif %}
@@ -33,6 +35,10 @@
       <a href="{{ project.github_url }}" class="project-link ongoing-link">
         <span class="icon"></span>GitHub Coming Soon
       </a>
+    {% elsif project.is_private_repo %}
+      <span class="project-link private-repo-notice">
+        <span class="icon">🔒</span>Private Repository
+      </span>
     {% else %}
       <a href="{{ project.github_url }}" class="project-link github-link" target="_blank">
         <span class="icon"></span>View on GitHub

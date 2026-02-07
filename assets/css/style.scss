@@ -135,6 +135,16 @@
   margin-left: 0.5rem;
 }
 
+.private-badge {
+  background: rgba(128, 128, 128, 0.2);
+  color: #a0a0a0;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  border: 1px solid #808080;
+  margin-left: 0.5rem;
+}
+
 .project-description {
   margin-bottom: 1rem;
   line-height: 1.6;
@@ -207,6 +217,19 @@
 .ongoing-link:hover {
   background: rgba(255, 215, 0, 0.2);
   box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.private-repo-notice {
+  background: rgba(128, 128, 128, 0.1);
+  border-color: #808080;
+  color: #a0a0a0;
+  cursor: default;
+}
+
+.private-repo-notice:hover {
+  background: rgba(128, 128, 128, 0.15);
+  box-shadow: none;
+  transform: none;
 }
 
 .github-link .icon::before {

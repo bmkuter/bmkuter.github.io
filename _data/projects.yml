@@ -47,3 +47,14 @@
   latest_update: "Major updates in December 2024: Added Python GUI console with mDNS device discovery, 2-hour sensor data cache with SQLite storage, advanced 4-channel LED control with bidirectional sync, auto-refresh dashboard, and CSV export. Implemented non-contact capacitive water level sensing through FDC1004. System now features complete water cycle control with real-time power monitoring."
   demo_url: "/ongoing"
   has_3d_models: true
+
+- name: "Daily Idea Planner"
+  description: "A full-stack web application for brainstorming and organizing ideas with AI-powered clustering, semantic search, and interactive graph visualization. Features React+TypeScript frontend with Vite, Node.js serverless backend, Groq AI integration for idea generation, and real-time knowledge graph using ReactFlow. Includes Google OAuth2 for cloud backup, hybrid search combining keywords and embeddings, and project management with tag-based clustering. Live demo available at https://dailyideaplanner.vercel.app/"
+  github_url: "https://github.com/bmkuter/Daily_Note_App"
+  status: "Active Development"
+  language: "TypeScript/React"
+  last_updated: "2026-02-07"
+  latest_update: "February 2026: Implemented comprehensive idea lifecycle management with visual state indicators (active, in-progress, done, archived). Added context menus for state changes, filter controls with live counts, and opacity-based visual feedback. Enhanced graph visualization with project tags becoming centroids, making project names the central nodes with related ideas connected. All state data persists across local and cloud backups."
+  demo_url: "https://dailyideaplanner.vercel.app/"
+  has_3d_models: false
+  is_private_repo: true
