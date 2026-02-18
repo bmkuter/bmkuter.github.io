@@ -55,6 +55,6 @@
   language: "TypeScript/React"
   last_updated: "2026-02-07"
   latest_update: "February 2026: Implemented comprehensive idea lifecycle management with visual state indicators (active, in-progress, done, archived). Added context menus for state changes, filter controls with live counts, and opacity-based visual feedback. Enhanced graph visualization with project tags becoming centroids, making project names the central nodes with related ideas connected. All state data persists across local and cloud backups."
-  demo_url: "https://dailyideaplanner.vercel.app/"
+  demo_url: "https://www.dailyideaplanner.me/"
   has_3d_models: false
   is_private_repo: true
