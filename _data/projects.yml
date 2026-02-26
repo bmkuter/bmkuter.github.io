@@ -1,3 +1,14 @@
+- name: "Voice-Controlled Audio Recorder"
+  description: "Battery-powered ESP32-S3 voice recorder with on-device wake word detection using Edge Impulse. Custom-trained neural network recognizes spoken keywords (start, stop, play) to control recording hands-free. Features I2S MEMS microphone (SPH0645LM4H) and Class-D amplifier (MAX98357A) for full-duplex audio, NimBLE BLE for wireless control and 51.6 KB/s file transfer, SD card + LittleFS dual storage, and automatic low-power management with light/deep sleep modes. ESP32-S3 SIMD vector instructions accelerate inference via ESP-NN optimized kernels. Includes a Python tkinter GUI for collecting keyword training data with voice-triggered capture and clip review."
+  github_url: "https://github.com/bmkuter/Audio_recorder_demo"
+  status: "Active Development"
+  language: "C/ESP-IDF"
+  last_updated: "2026-02-26"
+  latest_update: "Edge Impulse wake word detection fully operational on ESP32-S3 with PSRAM-accelerated inference. Currently retraining model for multi-keyword support (start/stop/play). Built custom training data collection GUI with voice-triggered recording and review system. All subsystems complete: I2S mic+amp, BLE, storage, power management, board HAL."
+  demo_url: "/ongoing"
+  has_3d_models: false
+  is_private_repo: true
+
 - name: "ESP-Camera"
   description: "WiFi-enabled ESP32-S3 camera system for the GrowPod project. Features high-resolution QXGA (2048x1536) image capture, live MJPEG preview stream, web-based camera controls, and mDNS support. Built on Seeed Studio XIAO ESP32S3 Sense with OV3660 camera module and 8MB PSRAM for high-speed image buffering."
   github_url: "https://github.com/bmkuter/ESP-Camera"
