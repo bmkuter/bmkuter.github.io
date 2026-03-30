@@ -23,4 +23,4 @@ Here are my current projects:
 
 ---
 
-© 2025 Benjamin Kuter. All rights reserved.
+© 2026 Benjamin Kuter. All rights reserved.

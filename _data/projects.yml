@@ -1,3 +1,25 @@
+- name: "Refinding Magic: The Gathering"
+  description: "A deck-first MTG management tool focused on building, testing, and iterating on legal Commander decks. Features a 4-step AI deck builder wizard (concept → themes → Scryfall candidates → assembled deck), Groq-powered coaching with full oracle text context for all 100 cards (Analyse / Improve / Rebuild modes), persistent free-form deck chat, combo & interaction discovery, AI strategy generation with combo groups and tutor lines, semantic card search (NL → Scryfall), and an interactive goldfish playfield with grid battlefield, commander zone, turn counter, browsable zone piles, and zoom controls. Scryfall-grounded suggestions use oracle-aware cut scoring, commander protection, and force-include for user-requested cards."
+  github_url: "https://github.com/bmkuter/MTG_Deck_Manager"
+  status: "Active Development"
+  language: "TypeScript/React"
+  last_updated: "2026-03-29"
+  latest_update: "March 2026: Added persistent deck chat — free-form conversational AI about your deck with full oracle text context and chat history. Overhauled the Improve pipeline with oracle-aware cut scoring, strategy context injection, commander protection, and force-include for user-suggested cards. Added interactive goldfish playfield with grid battlefield, commander zone, turn counter, zone management, and zoom controls."
+  demo_url: ""
+  has_3d_models: false
+  is_private_repo: true
+
+- name: "Folio — Resume Builder"
+  description: "A structured resume content system. Import your entire career history once from PDF, DOCX, plain text, or Markdown — Folio parses it into typed content items stored permanently in a searchable Vault. Accumulate content across multiple imports, then compose targeted resumes by pulling vault items into sections on a free-canvas A4/Letter layout with per-box display rules. Export as print-ready PDF with clickable hyperlinks, or round-trip Markdown with YAML frontmatter. Features heuristic section detection, two-panel import review modal, bidirectional tag sync, node/section reorder and move controls, From Vault picker, 20-step undo, and ATS-friendly output."
+  github_url: "https://github.com/bmkuter/Resume_App"
+  status: "Active Development"
+  language: "TypeScript/React"
+  last_updated: "2026-03-29"
+  latest_update: "March 2026: Full three-layer architecture operational — Vault (lifetime content corpus) → Folio (section arrangement) → Export (PDF/Markdown snapshots). Features heuristic section detection, import review modal, bidirectional tag sync, free-canvas A4/Letter layout with per-box display rules, clickable hyperlinks in PDF export, and 20-step undo history."
+  demo_url: ""
+  has_3d_models: false
+  is_private_repo: true
+
 - name: "Voice-Controlled Audio Recorder"
   description: "Battery-powered ESP32-S3 voice recorder with on-device wake word detection using Edge Impulse. Custom-trained neural network recognizes spoken keywords (start, stop, play) to control recording hands-free. Features I2S MEMS microphone (SPH0645LM4H) and Class-D amplifier (MAX98357A) for full-duplex audio, NimBLE BLE for wireless control and 51.6 KB/s file transfer with MTU optimization, dual LittleFS storage (flash for settings, SPI microSD for clips) with FIFO eviction, and automatic low-power management with light/deep sleep modes. ESP32-S3 SIMD vector instructions accelerate inference via ESP-NN optimized kernels. Includes comprehensive Python tkinter BLE control GUI with real-time device monitoring, clip browser with play/download/delete controls, waveform visualization with DC offset removal, volume control, and built-in transfer stress testing for validating BLE reliability."
   github_url: "https://github.com/bmkuter/Audio_recorder_demo"
