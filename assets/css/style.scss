@@ -95,6 +95,12 @@
   border: 1px solid #ffd700;
 }
 
+.project-status.closed-for-now {
+  background: rgba(160, 160, 160, 0.2);
+  color: #c0c0c0;
+  border: 1px solid #a0a0a0;
+}
+
 .project-meta {
   display: flex;
   justify-content: space-between;
